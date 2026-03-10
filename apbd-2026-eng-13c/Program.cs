@@ -6,5 +6,12 @@ public static class Program
     {
         Console.WriteLine("Hello World!");
         Console.WriteLine("First change");
+
+        double[] values = [9.0, 9.2, 3.1, 5.1, 5.0, 4.2, 4.3];
+        double res = StatisticsHelper.Mean(values);
+        Console.WriteLine($"Mean: {res}");
+        
+        String username = Console.ReadLine();
+        Console.WriteLine(UserValidator.usernameValidator(username));
     }
 }
