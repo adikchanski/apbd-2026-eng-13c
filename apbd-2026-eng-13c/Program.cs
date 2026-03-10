@@ -29,6 +29,6 @@ public static class Program
 
     public static int calculateMin(int[] val)
     {
-        
+        return val.Min();
     }
 }
