@@ -13,6 +13,7 @@ public static class Program
         
         String username = Console.ReadLine();
         Console.WriteLine(UserValidator.usernameValidator(username));
+        Console.WriteLine("Small change");
     }
 
     public static double calculateAvg(int[] val)
