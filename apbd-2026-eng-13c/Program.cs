@@ -14,9 +14,4 @@ public static class Program
         String username = Console.ReadLine();
         Console.WriteLine(UserValidator.usernameValidator(username));
     }
-
-    public static double calculateAverage(int[] values)
-    {
-        return values.Average();
-    }
 }
