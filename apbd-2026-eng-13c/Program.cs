@@ -26,4 +26,9 @@ public static class Program
     {
         return val.Max();
     }
+
+    public static int calculateMin(int[] val)
+    {
+        
+    }
 }
