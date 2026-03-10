@@ -19,7 +19,7 @@ public static class Program
 
     public static double calculateAvg(int[] val)
     {
-        return val.Average();
+        return val.Min();
     }
 
     public static double calculateMax(int[] val)
