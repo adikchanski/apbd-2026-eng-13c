@@ -20,4 +20,9 @@ public static class Program
     {
         return val.Average();
     }
+
+    public static double calculateMax(int[] val)
+    {
+        return val.Max();
+    }
 }
